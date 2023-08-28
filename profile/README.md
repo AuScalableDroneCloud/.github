@@ -20,9 +20,6 @@ Key branches:
 - *production* : the production site deployment (https://asdc.cloud.edu.au)
 - *development* : the development site deployment (https://dev.asdc.cloud.edu.au)
 
-### [secrets](https://github.com/AuScalableDroneCloud/secrets) (private)
-Contains encrypted secrets for the above deployments, encryption uses a keypair shared with site admins via our KeyPass org, see crypt.sh in DronesVL for details on loading and updating secrets.
-
 ### [nvidia-driver-build-fedora](https://github.com/AuScalableDroneCloud/nvidia-driver-build-fedora)
 This is the NVidia driver image build customised for our Nectar OpenStack Fedora CoreOS version, if the FedoraCoreOS version is updated along with a new Kubernetes release on OpenStack Magnum, this image will need to be rebuilt with the updated kernel versions, can also be rebuilt when NVidia driver updates are provided.
 
