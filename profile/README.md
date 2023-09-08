@@ -67,7 +67,7 @@ This is the Structural Geology use case Fracture Detection pipeline and dependen
 ## Applications
 
 ### [cesium-asdc](https://github.com/AuScalableDroneCloud/cesium-asdc)
-Cesium deployment for https://cesium.asdc.cloud.edu.au  
+Cesium deployment for https://cesium.asdc.cloud.edu.au/cesium/Apps/ASDC/  
 Deployment of all updates pushed to dev site, versioned releases deployed to production
 
 ### [cesium-api](https://github.com/AuScalableDroneCloud/cesium-api)
