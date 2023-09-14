@@ -81,7 +81,7 @@ Deployment of all updates pushed to dev site, versioned releases deployed to pro
 ## Misc
 
 ### [Tracker](https://github.com/AuScalableDroneCloud/Tracker/issues)
-Used to track issues for parts of the system that do not have their own issue tracker, including forked repos such as our WebODM fork https://github.com/AuScalableDroneCloud/Tracker/issue
+Used to track issues for parts of the system that do not have their own issue tracker, including forked repos such as our WebODM fork https://github.com/AuScalableDroneCloud/Tracker/issues
 
 ### [Documentation](https://github.com/AuScalableDroneCloud/documentation)
 Intended for platform documentation, based around the wiki site at https://github.com/AuScalableDroneCloud/documentation/wiki
