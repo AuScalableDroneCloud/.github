@@ -45,23 +45,23 @@ Small modifications to the OpenDroneMap/ClusterODM project, needs to be keept up
 ### [NodeODM](https://github.com/AuScalableDroneCloud/NodeODM)
 Small modifications to the OpenDroneMap/NodeODM project, needs to be keept up to date with upstream image
 
-## Pipelines / Jupyterhub
+## Pipelines and Use Cases / Jupyterhub
 
-### [asdc_python](https://github.com/AuScalableDroneCloud/asdc_python)
+### [asdc_python API](https://github.com/AuScalableDroneCloud/asdc_python)
 This is the ASDC python API to access the WebODM and our custom API features from python, in particular from the ASDC JupyterHub environment.
 It also contains Jupyterhub server features to automate authentication tokens and sharing data between the WebODM site and Jupyterhub.
 
-### [pipelines](https://github.com/AuScalableDroneCloud/pipelines)
+### [Jupyterhub core docker images](https://github.com/AuScalableDroneCloud/pipelines)
 This repo holds the core docker images for the Jupyterhub environments, there are currently 3 images:
 - **base** CPU only image
 - **gpu** GPU image, includes GPU support and CUDA libraries etc
 - **ml** ML+GPU image, GPU image with additional ML libraries
 Deployment is as WebODM, all updates pushed to dev site, versioned releases deployed to production
 
-### [pipelines-jupyter](https://github.com/AuScalableDroneCloud/pipelines-jupyter)
-This holds the base pipeline definitions (pipelines.yaml) and subdirectories for pipeline notebooks and code for the core ASDC Jupyterhub pipelines. New pipelines can be created by editing pipeines.yaml and adding the subdirectory to this repo or an external repo.
+### [Jupyterhub Pipelines and use cases](https://github.com/AuScalableDroneCloud/pipelines-jupyter)
+This holds the code for core ASDC Jupyterhub notebooks and base pipeline and use-case definitions (pipelines.yaml). New pipelines can be created by editing pipeines.yaml and adding the subdirectory to this repo or an external repo.
 
-### [pipeline-fracture](https://github.com/AuScalableDroneCloud/pipeline-fracture)
+### [Fracture detection pipeline (pipeline-fracture)](https://github.com/AuScalableDroneCloud/pipeline-fracture)
 This is the Structural Geology use case Fracture Detection pipeline and dependencies, example of a pipeline existing in its own repo.
 
 ## Applications
