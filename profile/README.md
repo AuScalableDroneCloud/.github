@@ -1,6 +1,5 @@
 # Australian Scalable Drone Cloud
 
-https://asdc.io
 
 A summary of descriptions and purposes of repositories in this organisation
 
